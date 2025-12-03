@@ -4,10 +4,6 @@
 
 Bu proje, iş arayanların özgeçmişlerini (CV) saniyeler içinde analiz ederek hem **İnsan Kaynakları (İK)** profesyonellerinin hem de **Aday Takip Sistemleri (ATS)** algoritmalarının beklentilerine göre puanlayan ve iyileştirme önerileri sunan modern bir web uygulamasıdır.
 
-![Project Status](https://img.shields.io/badge/status-active-success.svg)
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Tech](https://img.shields.io/badge/tech-React%20%7C%20TypeScript%20%7C%20OpenAI-blueviolet.svg)
-
 ## ✨ Öne Çıkan Özellikler
 
 - **📄 Çoklu Format Desteği:**
@@ -42,20 +38,20 @@ Projeyi yerel makinenizde çalıştırmak için aşağıdaki adımları izleyin:
 git clone [https://github.com/enesdolgun33/ai-cv-analyzer.git](https://github.com/enesdolgun33/ai-cv-analyzer.git)
 cd ai-cv-analyzer
 2. Bağımlılıkları Yükleyin
-Bash
 
 npm install
+
 3. Çevre Değişkenlerini Ayarlayın (Önemli!)
 Ana dizinde .env adında bir dosya oluşturun. İçerisine OpenAI API anahtarınızı aşağıdaki değişken adıyla ekleyin. (Not: Kod içerisinde import.meta.env.VITE_API_KEY kullanıldığı için değişken adı tam olarak böyle olmalıdır.)
 
-Kod snippet'i
-
 VITE_API_KEY=sk-proj-Sizin-OpenAI-Api-Anahtariniz...
+
 4. Uygulamayı Başlatın
-Bash
 
 npm run dev
+
 Tarayıcınızda http://localhost:5173 adresine giderek uygulamayı kullanmaya başlayabilirsiniz.
+
 
 📂 Proje Yapısı
 src/
@@ -69,14 +65,8 @@ src/
 ├── types/               # TypeScript Tip Tanımları
 ├── App.tsx              # Ana uygulama konteyneri
 └── main.tsx             # React giriş noktası
-🔮 Gelecek Planları (Roadmap)
-[ ] İş İlanı Eşleştirme: Kullanıcının hedeflediği iş ilanını yapıştırıp CV ile uyumluluğunu (match rate) ölçmesi.
 
-[ ] PDF Rapor İndirme: Analiz sonucunun şık bir PDF formatında çıktısının alınması.
 
-[ ] Geçmiş Analizler: Tarayıcı hafızasında (LocalStorage) eski analizlerin saklanması.
-
-[ ] Çoklu Dil Desteği: İngilizce ve diğer dillerde CV analizi.
 
 🤝 Katkıda Bulunma
 Katkılarınızı bekliyoruz! Lütfen şu adımları izleyin:
